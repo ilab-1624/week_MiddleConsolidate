@@ -1,0 +1,2 @@
+receiverLineId = 'receiverLineId'
+channelAccessToken = 'channelAccessToken'

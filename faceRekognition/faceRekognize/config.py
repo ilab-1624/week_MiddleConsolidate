@@ -1,0 +1,9 @@
+aws_access_key_id = '' #擁有使用rekognition以及s3api權限的id
+aws_secret_access_key = '' #擁有使用rekognition以及s3api權限的secretkey
+region_name = 'us-west-2'
+sourceBucketName = '' #儲存來源影像
+faceBucketName = '' #儲存切下的人臉影像的主路徑
+faceBucketSubPathList = ["",""] #儲存切下的人臉影像的子路徑(分成已註冊的成員人臉及簽到時切下的所有人臉兩處)
+memberFaceListBucketName = "" #儲存成員人臉faceImage以及memberIdList的s3BucketName
+memberFaceFileName = "" #儲存成員人臉faceIamge資訊以及memberIdList的s3FileName(.json)
+collectionId = "" #rekognition的collection名稱
